@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wickr\\source\\repos\\Demo\\FarmMangement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85BB397D-388C-4D44-B4C4-8EAC26D8BE46}|FarmManagement.Web\\FarmManagement.Web.csproj|c:\\users\\wickr\\source\\repos\\demo\\farmmangement\\farmmanagement.web\\pages\\index.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85BB397D-388C-4D44-B4C4-8EAC26D8BE46}|FarmManagement.Web\\FarmManagement.Web.csproj|solutionrelative:farmmanagement.web\\pages\\index.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85BB397D-388C-4D44-B4C4-8EAC26D8BE46}|FarmManagement.Web\\FarmManagement.Web.csproj|c:\\users\\wickr\\source\\repos\\demo\\farmmangement\\farmmanagement.web\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85BB397D-388C-4D44-B4C4-8EAC26D8BE46}|FarmManagement.Web\\FarmManagement.Web.csproj|solutionrelative:farmmanagement.web\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3165AD-AE73-4254-82E3-94B3524C7CE5}|FarmManagement.API\\FarmManagement.API.csproj|c:\\users\\wickr\\source\\repos\\demo\\farmmangement\\farmmanagement.api\\controllers\\fieldcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E3165AD-AE73-4254-82E3-94B3524C7CE5}|FarmManagement.API\\FarmManagement.API.csproj|solutionrelative:farmmanagement.api\\controllers\\fieldcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85BB397D-388C-4D44-B4C4-8EAC26D8BE46}|FarmManagement.Web\\FarmManagement.Web.csproj|c:\\users\\wickr\\source\\repos\\demo\\farmmangement\\farmmanagement.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85BB397D-388C-4D44-B4C4-8EAC26D8BE46}|FarmManagement.Web\\FarmManagement.Web.csproj|solutionrelative:farmmanagement.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7850FD89-1209-4405-9653-30A407E173C6}|FarmManagement.Application\\FarmManagement.Application.csproj|c:\\users\\wickr\\source\\repos\\demo\\farmmangement\\farmmanagement.application\\common\\configurations\\apisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7850FD89-1209-4405-9653-30A407E173C6}|FarmManagement.Application\\FarmManagement.Application.csproj|solutionrelative:farmmanagement.application\\common\\configurations\\apisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3165AD-AE73-4254-82E3-94B3524C7CE5}|FarmManagement.API\\FarmManagement.API.csproj|c:\\users\\wickr\\source\\repos\\demo\\farmmangement\\farmmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E3165AD-AE73-4254-82E3-94B3524C7CE5}|FarmManagement.API\\FarmManagement.API.csproj|solutionrelative:farmmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85BB397D-388C-4D44-B4C4-8EAC26D8BE46}|FarmManagement.Web\\FarmManagement.Web.csproj|c:\\users\\wickr\\source\\repos\\demo\\farmmangement\\farmmanagement.web\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{85BB397D-388C-4D44-B4C4-8EAC26D8BE46}|FarmManagement.Web\\FarmManagement.Web.csproj|solutionrelative:farmmanagement.web\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\wickr\\source\\repos\\Demo\\FarmMangement\\FarmManagement.API\\Program.cs",
+              "RelativeDocumentMoniker": "FarmManagement.API\\Program.cs",
+              "ToolTip": "C:\\Users\\wickr\\source\\repos\\Demo\\FarmMangement\\FarmManagement.API\\Program.cs",
+              "RelativeToolTip": "FarmManagement.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T12:00:04.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApiSettings.cs",
+              "DocumentMoniker": "C:\\Users\\wickr\\source\\repos\\Demo\\FarmMangement\\FarmManagement.Application\\Common\\Configurations\\ApiSettings.cs",
+              "RelativeDocumentMoniker": "FarmManagement.Application\\Common\\Configurations\\ApiSettings.cs",
+              "ToolTip": "C:\\Users\\wickr\\source\\repos\\Demo\\FarmMangement\\FarmManagement.Application\\Common\\Configurations\\ApiSettings.cs",
+              "RelativeToolTip": "FarmManagement.Application\\Common\\Configurations\\ApiSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T11:58:51.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\wickr\\source\\repos\\Demo\\FarmMangement\\FarmManagement.Web\\Program.cs",
+              "RelativeDocumentMoniker": "FarmManagement.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\wickr\\source\\repos\\Demo\\FarmMangement\\FarmManagement.Web\\Program.cs",
+              "RelativeToolTip": "FarmManagement.Web\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T11:53:31.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.razor.cs",
+              "DocumentMoniker": "C:\\Users\\wickr\\source\\repos\\Demo\\FarmMangement\\FarmManagement.Web\\Pages\\Index.razor.cs",
+              "RelativeDocumentMoniker": "FarmManagement.Web\\Pages\\Index.razor.cs",
+              "ToolTip": "C:\\Users\\wickr\\source\\repos\\Demo\\FarmMangement\\FarmManagement.Web\\Pages\\Index.razor.cs",
+              "RelativeToolTip": "FarmManagement.Web\\Pages\\Index.razor.cs",
+              "ViewState": "AQIAAIkAAAAAAAAAAAAiwOoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T22:43:43.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FieldController.cs",
+              "DocumentMoniker": "C:\\Users\\wickr\\source\\repos\\Demo\\FarmMangement\\FarmManagement.API\\Controllers\\FieldController.cs",
+              "RelativeDocumentMoniker": "FarmManagement.API\\Controllers\\FieldController.cs",
+              "ToolTip": "C:\\Users\\wickr\\source\\repos\\Demo\\FarmMangement\\FarmManagement.API\\Controllers\\FieldController.cs",
+              "RelativeToolTip": "FarmManagement.API\\Controllers\\FieldController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAgwDMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T12:06:22.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\wickr\\source\\repos\\Demo\\FarmMangement\\FarmManagement.Web\\wwwroot\\appsettings.json",
+              "RelativeDocumentMoniker": "FarmManagement.Web\\wwwroot\\appsettings.json",
+              "ToolTip": "C:\\Users\\wickr\\source\\repos\\Demo\\FarmMangement\\FarmManagement.Web\\wwwroot\\appsettings.json",
+              "RelativeToolTip": "FarmManagement.Web\\wwwroot\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-08T11:49:34.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\wickr\\source\\repos\\Demo\\FarmMangement\\FarmManagement.Web\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "FarmManagement.Web\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\wickr\\source\\repos\\Demo\\FarmMangement\\FarmManagement.Web\\Pages\\Index.razor",
+              "RelativeToolTip": "FarmManagement.Web\\Pages\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T22:32:04.921Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+﻿@page "/"
+@using System.Net.Http.Json
+@using FarmManagement.Application.Features.Fields.Queries.GetAllFields
+@using FarmManagement.Domain.Entities
+@using MudBlazor
+@using System.Text.RegularExpressions
+@using System.ComponentModel.DataAnnotations
+@using FluentValidation
+@inject IConfiguration Configuration
+@inject HttpClient httpClient
+
+<MudTable Items="@fieldsList" Dense="@dense" Hover="@hover" Bordered="@bordered" Striped="@striped" Filter="new Func<GetAllFieldsDto,bool>(FilterFunc1)" @bind-SelectedItem="selectedItem1">
+    <ToolBarContent>
+        <MudText Typo="Typo.h6">Registered Fields</MudText>
+        <MudSpacer />
+        <MudTextField @bind-Value="searchString1" Placeholder="Search" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+    </ToolBarContent>
+    <HeaderContent>
+        <MudTh>Id</MudTh>
+        <MudTh>FIeld Name</MudTh>
+        <MudTh>Field Area</MudTh>
+        <MudTh>Crop Name</MudTh>
+        <MudTh>Edit</MudTh>
+        <MudTh>Delete</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Id">@context.Id</MudTd>
+        <MudTd DataLabel="FIeld Name">@context.Name</MudTd>
+        <MudTd DataLabel="Field Area">@context.Area</MudTd>
+        <MudTd DataLabel="Crop Name">@context.CropName</MudTd>
+        <MudTd DataLabel="Edit"><MudIconButton Icon="@Icons.Material.Filled.EditNote" aria-label="Edit" OnClick="@(() => EditData(context.Id))" /></MudTd>
+        <MudTd DataLabel="Delete"><MudIconButton Icon="@Icons.Material.Filled.Delete" aria-label="delete" OnClick="@(() => DeleteData(context.Id))" /></MudTd>
+    </RowTemplate>
+    <PagerContent>
+        <MudTablePager />
+    </PagerContent>
+</MudTable>
+
+<MudGrid>
+    <MudItem xs="12" class="d-flex justify-content-start mt-4">
+        <MudButton Variant="Variant.Outlined" Color="Color.Primary" OnClick="HideForm">Add Field</MudButton>
+    </MudItem>
+</MudGrid>
+ @if (showForm)
+{
+    <MudCard>
+        <MudSpacer/>
+        <MudForm Model="@modelField" @ref="@form" @bind-IsValid="@success" @bind-Errors="@errors" Validation="@(fieldValidator.ValidateValue)" ValidationDelay="0">
+            <MudCardContent>
+                <MudGrid>
+                    <MudItem xs="12" sm="6">
+                        <MudTextField T="string" 
+                            @bind-Value="modelField.Name" 
+                            Label=" Field Name" 
+                            Required="true" 
+                            RequiredError="Field Name is required!" 
+                            For="@(() => modelField.Name)" 
+                            Disabled="isEdit" 
+                            ReadOnly="isDelete"
+                            Immediate="true" />
+
+                        <MudTextField T="int" 
+                            @bind-Value="modelField.Area" 
+                            Label="Area" 
+                            Required="true" 
+                            RequiredError="Area is required!" 
+                            ReadOnly="isDelete"
+                            Immediate="true" />
+                    </MudItem>
+                    <MudItem xs="12" sm="6">
+                        <MudTextField T="string" 
+                            @bind-Value="modelField.CropName" 
+                            Label="Crop Name" Required="true" 
+                            RequiredError="Crop Name is required!"
+                            ReadOnly="isDelete"
+                            Immediate="true" />
+                    </MudItem>
+                </MudGrid>
+            </MudCardContent>
+        </MudForm>
+
+        <MudCardActions>
+            <MudGrid>
+                <MudItem xs="12" class="d-flex justify-content-start mt-4">
+                    @if (isAdd)
+                    {
+                        <MudButton Variant="Variant.Outlined" Color="Color.Primary" OnClick="Submit">Add</MudButton>
+                    }
+                    @if (isEdit)
+                    {
+                        <MudButton Variant="Variant.Outlined" Color="Color.Primary" Class="ms-2" OnClick="Edit">Edit</MudButton>
+                    }
+                    @if (isDelete)
+                    {
+                        <MudButton Variant="Variant.Outlined" Color="Color.Error" Class="ms-2" OnClick="Delete">Delete</MudButton>
+                    }
+                    <MudButton Variant="Variant.Outlined" Color="Color.Primary" Class="ms-2" OnClick="Reset">Reset</MudButton>
+                </MudItem>
+            </MudGrid>
+        </MudCardActions>
+    </MudCard>
+}
