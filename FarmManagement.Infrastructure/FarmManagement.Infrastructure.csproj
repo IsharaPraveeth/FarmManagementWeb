@@ -21,4 +21,8 @@
     <ProjectReference Include="..\FarmManagement.Domain\FarmManagement.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DbScripts\" />
+  </ItemGroup>
+
 </Project>
