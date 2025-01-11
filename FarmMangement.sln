@@ -19,6 +19,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FarmManagement.API", "FarmM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FarmManagement.Web", "FarmManagement.Web\FarmManagement.Web.csproj", "{85BB397D-388C-4D44-B4C4-8EAC26D8BE46}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3A203DB2-239D-4908-9DD7-3FDC4CF02CE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmManagement.Tests", "FarmManagement.Tests\FarmManagement.Tests.csproj", "{61096798-4D1B-43CE-AD47-6BE9DE910813}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,10 @@ Global
 		{85BB397D-388C-4D44-B4C4-8EAC26D8BE46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85BB397D-388C-4D44-B4C4-8EAC26D8BE46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85BB397D-388C-4D44-B4C4-8EAC26D8BE46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61096798-4D1B-43CE-AD47-6BE9DE910813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61096798-4D1B-43CE-AD47-6BE9DE910813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61096798-4D1B-43CE-AD47-6BE9DE910813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61096798-4D1B-43CE-AD47-6BE9DE910813}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +63,7 @@ Global
 		{C7F4022F-7462-4FAA-B829-7B89D8D856C8} = {02F9AC37-B707-44B3-B4DF-E8684E15CEC4}
 		{4E3165AD-AE73-4254-82E3-94B3524C7CE5} = {052EDC75-7B11-4EC6-85BC-513A5548476B}
 		{85BB397D-388C-4D44-B4C4-8EAC26D8BE46} = {052EDC75-7B11-4EC6-85BC-513A5548476B}
+		{61096798-4D1B-43CE-AD47-6BE9DE910813} = {3A203DB2-239D-4908-9DD7-3FDC4CF02CE4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4CDB347A-A07A-455F-B51B-604C5602E11C}
